@@ -11,7 +11,7 @@ export default function Create() {
       return;
     }
 
-    const res = await axios.post("http://localhost:5000/poll", {
+    const res = await axios.post("https://real-time-poll-bdwf.onrender.com/poll", {
       question,
       options
     });
