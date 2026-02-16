@@ -13,7 +13,7 @@ app.use(express.json());
 const server = http.createServer(app);
 
 const io = new Server(server, {
-  cors: { origin: "https://real-time-poll-bdwf.onrender.com" },
+  cors: { origin: "*" },
 });
 
 mongoose
