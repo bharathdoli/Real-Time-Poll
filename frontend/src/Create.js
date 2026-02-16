@@ -1,6 +1,5 @@
 import { useState } from "react";
 import axios from "axios";
-import style from "./style.css";
 export default function Create() {
   const [question, setQuestion] = useState("");
   const [options, setOptions] = useState(["", ""]);
